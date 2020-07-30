@@ -1,10 +1,10 @@
-﻿Log file open, 07/30/20 12:02:36
+﻿Log file open, 07/30/20 16:13:15
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.147898
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.424125
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -139,13 +139,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-13942748
 LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz, GPU: NVIDIA GeForce RTX 2060 SUPER
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
 LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  -EpicPortal -epicusername=namones -epicuserid=ff86e069588c48578d38564ebd93158b -epiclocale=en
-LogInit: Base Directory: D:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line:  -EpicPortal -epicusername=jdliv4 -epicuserid=14e60228e2264633987dae55470ce52e -epiclocale=en
+LogInit: Base Directory: D:/epicLauncher/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,737 +194,463 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.07.30-16.02.37:078][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.07.30-16.02.37:078][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.07.30-16.02.37:078][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:078][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.07.30-16.02.37:078][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.07.30-16.02.37:079][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:079][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:080][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:080][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.30-16.02.37:080][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.30-16.02.37:080][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:080][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.30-16.02.37:080][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.30-16.02.37:081][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.30-16.02.37:081][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.30-16.02.37:081][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.30-16.02.37:081][  0]LogHAL: Display: Platform has ~ 32 GB [34284830720 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.07.30-16.02.37:082][  0]LogInit: Going up to parent DeviceProfile []
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.30-16.02.37:082][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.30-16.02.37:083][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.30-16.02.37:083][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.30-16.02.37:083][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.07.30-16.02.37:083][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.07.30-16.02.37:083][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.07.30-16.02.37:083][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.07.30-16.02.37:083][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.07.30-16.02.37:083][  0]LogInit: Computer: WILLIAMS-PC
-[2020.07.30-16.02.37:083][  0]LogInit: User: vexe
-[2020.07.30-16.02.37:083][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.07.30-16.02.37:083][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.30-16.02.37:083][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.07.30-16.02.37:083][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.30-16.02.37:083][  0]LogMemory: Process Physical Memory: 113.70 MB used, 113.71 MB peak
-[2020.07.30-16.02.37:083][  0]LogMemory: Process Virtual Memory: 96.17 MB used, 96.17 MB peak
-[2020.07.30-16.02.37:083][  0]LogMemory: Physical Memory: 11113.76 MB used,  21582.80 MB free, 32696.56 MB total
-[2020.07.30-16.02.37:083][  0]LogMemory: Virtual Memory: 5147.10 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.07.30-16.02.37:088][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.07.30-16.02.37:118][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.07.30-16.02.37:119][  0]LogInit: Using OS detected language (en-US).
-[2020.07.30-16.02.37:119][  0]LogInit: Using OS detected locale (en-US).
-[2020.07.30-16.02.37:121][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.07.30-16.02.37:280][  0]LogInit: Setting process to per monitor DPI aware
-[2020.07.30-16.02.37:308][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.07.30-16.02.37:308][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.07.30-16.02.37:458][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.30-16.02.37:458][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.07.30-16.02.37:458][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.07.30-16.02.37:458][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.30-16.02.37:515][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
-[2020.07.30-16.02.37:515][  0]LogD3D11RHI:       8031/0/16348 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.07.30-16.02.37:517][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.30-16.02.37:517][  0]LogD3D11RHI:       0/0/16348 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.30-16.02.37:517][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.30-16.02.37:525][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.30-16.02.37:525][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
-[2020.07.30-16.02.37:525][  0]LogWindows: EnumDisplayDevices:
-[2020.07.30-16.02.37:525][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
-[2020.07.30-16.02.37:525][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.07.30-16.02.37:526][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.07.30-16.02.37:526][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.07.30-16.02.37:526][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.07.30-16.02.37:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
-[2020.07.30-16.02.37:526][  0]LogD3D11RHI:   Driver Version: 442.50 (internal:26.21.14.4250, unified:442.50)
-[2020.07.30-16.02.37:526][  0]LogD3D11RHI:      Driver Date: 2-24-2020
-[2020.07.30-16.02.37:526][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2020.07.30-16.02.37:561][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.07.30-16.02.37:562][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.07.30-16.02.37:562][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.30-16.02.37:562][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.07.30-16.02.37:563][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061087).
-[2020.07.30-16.02.37:578][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.07.30-16.02.37:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.07.30-16.02.37:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.07.30-16.02.37:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.07.30-16.02.37:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.07.30-16.02.37:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.07.30-16.02.37:899][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.07.30-16.02.37:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.07.30-16.02.37:913][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.07.30-16.02.37:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.07.30-16.02.37:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.07.30-16.02.37:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.07.30-16.02.37:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.07.30-16.02.37:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.07.30-16.02.37:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.07.30-16.02.37:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.07.30-16.02.37:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.07.30-16.02.37:986][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.07.30-16.02.37:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.07.30-16.02.38:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.07.30-16.02.38:001][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.30-16.02.38:008][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.07.30-16.02.38:052][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Intermediate/Shaders/WorkingDirectory/10748/).
-[2020.07.30-16.02.38:052][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vexe/AppData/Local/Temp/UnrealShaderWorkingDir/B35F4FEF4339366D009113AB89F282BA/'.
-[2020.07.30-16.02.38:053][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.07.30-16.02.38:053][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.07.30-16.02.38:053][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.30-16.02.38:721][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.30-16.02.38:778][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/vexe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.30-16.02.38:778][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vexe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.07.30-16.02.38:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.30-16.02.38:779][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.30-16.02.38:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.30-16.02.38:779][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.07.30-16.02.38:787][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.07.30-16.02.38:787][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.30-16.02.38:787][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.07.30-16.02.38:789][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vexe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.07.30-16.02.38:789][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.07.30-16.02.38:789][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.07.30-16.02.38:833][  0]LogSlate: Using FreeType 2.10.0
-[2020.07.30-16.02.38:833][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.30-16.02.38:854][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2020.07.30-16.02.39:032][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.30-16.02.39:126][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.30-16.02.39:126][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.07.30-16.02.39:126][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.07.30-16.02.39:126][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.07.30-16.02.39:126][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.07.30-16.02.39:138][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
-[2020.07.30-16.02.39:496][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000011ADB095BC0), frame # 0
-[2020.07.30-16.02.39:496][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011ADAFECE00), frame # 0
-[2020.07.30-16.02.39:497][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011ADB058A00), frame # 0
-[2020.07.30-16.02.39:542][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.040186 seconds
-[2020.07.30-16.02.39:546][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.07.30-16.02.39:546][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.07.30-16.02.39:546][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.30-16.02.39:815][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.30-16.02.39:842][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.30-16.02.39:901][  0]SourceControl: Source control is disabled
-[2020.07.30-16.02.39:901][  0]SourceControl: Source control is disabled
-[2020.07.30-16.02.39:903][  0]SourceControl: Source control is disabled
-[2020.07.30-16.02.39:905][  0]SourceControl: Source control is disabled
-[2020.07.30-16.02.39:910][  0]SourceControl: Source control is disabled
-[2020.07.30-16.02.40:102][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.30-16.02.40:119][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.30-16.02.40:119][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.30-16.02.40:160][  0]LogOcInput: OculusInput pre-init called
-[2020.07.30-16.02.40:169][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.07.30-16.02.40:169][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.07.30-16.02.40:220][  0]LogEngine: Initializing Engine...
-[2020.07.30-16.02.40:249][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.30-16.02.40:249][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.07.30-16.02.40:250][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.07.30-16.02.40:371][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.07.30-16.02.40:377][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.07.30-16.02.40:378][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011ADD5E7C00), frame # 0
-[2020.07.30-16.02.40:378][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011ADD64D6C0), frame # 0
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.30-16.02.40:392][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.30-16.02.40:392][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.30-16.02.40:393][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.30-16.02.40:393][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.30-16.02.40:406][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.30-16.02.40:406][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.07.30-16.02.40:444][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.07.30-16.02.40:447][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.30-16.02.40:450][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.30-16.02.40:450][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.30-16.02.40:450][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.30-16.02.40:452][  0]LogInit: FAudioDevice initialized.
-[2020.07.30-16.02.40:452][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.07.30-16.02.40:529][  0]LogDerivedDataCache: Saved boot cache 0.08s 77MB C:/Users/vexe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.30-16.02.40:536][  0]LogInit: Texture streaming: Enabled
-[2020.07.30-16.02.40:548][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.07.30-16.02.40:548][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.07.30-16.02.40:550][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.07.30-16.02.40:582][  0]LogInit: Transaction tracking system initialized
-[2020.07.30-16.02.40:598][  0]BlueprintLog: New page: Editor Load
-[2020.07.30-16.02.40:729][  0]LocalizationService: Localization service is disabled
-[2020.07.30-16.02.40:898][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.07.30-16.02.40:898][  0]LogCook: Display: Mobile HDR setting 1
-[2020.07.30-16.02.40:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/' took 0.00s
-[2020.07.30-16.02.41:140][  0]SourceControl: Source control is disabled
-[2020.07.30-16.02.41:140][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.299
-[2020.07.30-16.02.41:228][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Epic Games/UE_4.25/FeaturePacks/StarterContent.upack)
-[2020.07.30-16.02.41:241][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2020.07.30-16.02.41:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2020.07.30-16.02.41:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2020.07.30-16.02.41:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2020.07.30-16.02.41:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2020.07.30-16.02.41:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2020.07.30-16.02.41:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2020.07.30-16.02.41:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2020.07.30-16.02.41:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2020.07.30-16.02.41:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2020.07.30-16.02.41:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2020.07.30-16.02.41:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2020.07.30-16.02.41:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Collapse01.uasset"
-[2020.07.30-16.02.41:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Collapse02.uasset"
-[2020.07.30-16.02.41:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2020.07.30-16.02.41:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Explosion01.uasset"
-[2020.07.30-16.02.41:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Explosion02.uasset"
-[2020.07.30-16.02.41:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2020.07.30-16.02.41:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Fire01.uasset"
-[2020.07.30-16.02.41:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2020.07.30-16.02.41:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2020.07.30-16.02.41:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2020.07.30-16.02.41:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Light01.uasset"
-[2020.07.30-16.02.41:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2020.07.30-16.02.41:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Light02.uasset"
-[2020.07.30-16.02.41:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2020.07.30-16.02.41:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Smoke01.uasset"
-[2020.07.30-16.02.41:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2020.07.30-16.02.41:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2020.07.30-16.02.41:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2020.07.30-16.02.41:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2020.07.30-16.02.41:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2020.07.30-16.02.41:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2020.07.30-16.02.41:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2020.07.30-16.02.41:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Steam01.uasset"
-[2020.07.30-16.02.41:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2020.07.30-16.02.41:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2020.07.30-16.02.41:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2020.07.30-16.02.41:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2020.07.30-16.02.41:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2020.07.30-16.02.41:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2020.07.30-16.02.41:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2020.07.30-16.02.41:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2020.07.30-16.02.41:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2020.07.30-16.02.41:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2020.07.30-16.02.41:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2020.07.30-16.02.41:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2020.07.30-16.02.41:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2020.07.30-16.02.41:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2020.07.30-16.02.41:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2020.07.30-16.02.41:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2020.07.30-16.02.41:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2020.07.30-16.02.41:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2020.07.30-16.02.41:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2020.07.30-16.02.41:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2020.07.30-16.02.41:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Maps/Minimal_Default.umap"
-[2020.07.30-16.02.41:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2020.07.30-16.02.41:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Maps/StarterMap.umap"
-[2020.07.30-16.02.41:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2020.07.30-16.02.41:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2020.07.30-16.02.41:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2020.07.30-16.02.41:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2020.07.30-16.02.41:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2020.07.30-16.02.41:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2020.07.30-16.02.41:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2020.07.30-16.02.41:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2020.07.30-16.02.41:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2020.07.30-16.02.41:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2020.07.30-16.02.41:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2020.07.30-16.02.41:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2020.07.30-16.02.41:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2020.07.30-16.02.41:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2020.07.30-16.02.41:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2020.07.30-16.02.41:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2020.07.30-16.02.41:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2020.07.30-16.02.41:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2020.07.30-16.02.41:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Glass.uasset"
-[2020.07.30-16.02.41:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2020.07.30-16.02.41:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2020.07.30-16.02.41:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2020.07.30-16.02.41:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2020.07.30-16.02.41:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2020.07.30-16.02.41:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2020.07.30-16.02.41:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2020.07.30-16.02.41:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2020.07.30-16.02.41:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2020.07.30-16.02.41:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2020.07.30-16.02.41:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2020.07.30-16.02.41:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2020.07.30-16.02.41:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2020.07.30-16.02.41:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2020.07.30-16.02.41:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2020.07.30-16.02.41:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2020.07.30-16.02.41:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2020.07.30-16.02.41:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2020.07.30-16.02.41:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2020.07.30-16.02.41:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2020.07.30-16.02.41:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2020.07.30-16.02.41:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2020.07.30-16.02.41:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2020.07.30-16.02.41:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2020.07.30-16.02.41:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2020.07.30-16.02.41:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2020.07.30-16.02.41:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/P_Explosion.uasset"
-[2020.07.30-16.02.41:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/P_Fire.uasset"
-[2020.07.30-16.02.41:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/P_Smoke.uasset"
-[2020.07.30-16.02.41:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/P_Sparks.uasset"
-[2020.07.30-16.02.41:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2020.07.30-16.02.41:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2020.07.30-16.02.41:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2020.07.30-16.02.41:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2020.07.30-16.02.41:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2020.07.30-16.02.41:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2020.07.30-16.02.41:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2020.07.30-16.02.41:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2020.07.30-16.02.41:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2020.07.30-16.02.41:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2020.07.30-16.02.41:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2020.07.30-16.02.41:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
-[2020.07.30-16.02.41:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Bush.uasset"
-[2020.07.30-16.02.41:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Chair.uasset"
-[2020.07.30-16.02.41:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2020.07.30-16.02.41:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Couch.uasset"
-[2020.07.30-16.02.41:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Door.uasset"
-[2020.07.30-16.02.41:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2020.07.30-16.02.41:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2020.07.30-16.02.41:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2020.07.30-16.02.41:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2020.07.30-16.02.41:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2020.07.30-16.02.41:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2020.07.30-16.02.41:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2020.07.30-16.02.41:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Rock.uasset"
-[2020.07.30-16.02.41:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Shelf.uasset"
-[2020.07.30-16.02.41:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Stairs.uasset"
-[2020.07.30-16.02.41:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_Statue.uasset"
-[2020.07.30-16.02.41:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_TableRound.uasset"
-[2020.07.30-16.02.41:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2020.07.30-16.02.42:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2020.07.30-16.02.42:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2020.07.30-16.02.42:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2020.07.30-16.02.42:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2020.07.30-16.02.42:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2020.07.30-16.02.42:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2020.07.30-16.02.42:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2020.07.30-16.02.42:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2020.07.30-16.02.42:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2020.07.30-16.02.42:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2020.07.30-16.02.42:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2020.07.30-16.02.42:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2020.07.30-16.02.42:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2020.07.30-16.02.42:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2020.07.30-16.02.42:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2020.07.30-16.02.42:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2020.07.30-16.02.42:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2020.07.30-16.02.42:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2020.07.30-16.02.42:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2020.07.30-16.02.42:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2020.07.30-16.02.42:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2020.07.30-16.02.42:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2020.07.30-16.02.42:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2020.07.30-16.02.42:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2020.07.30-16.02.42:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2020.07.30-16.02.42:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2020.07.30-16.02.42:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2020.07.30-16.02.42:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2020.07.30-16.02.42:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2020.07.30-16.02.42:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2020.07.30-16.02.42:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2020.07.30-16.02.42:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2020.07.30-16.02.42:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2020.07.30-16.02.42:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2020.07.30-16.02.42:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2020.07.30-16.02.42:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2020.07.30-16.02.42:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2020.07.30-16.02.42:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2020.07.30-16.02.42:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2020.07.30-16.02.42:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2020.07.30-16.02.42:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2020.07.30-16.02.42:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2020.07.30-16.02.42:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2020.07.30-16.02.42:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2020.07.30-16.02.42:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2020.07.30-16.02.42:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2020.07.30-16.02.42:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2020.07.30-16.02.42:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2020.07.30-16.02.42:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2020.07.30-16.02.42:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2020.07.30-16.02.42:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2020.07.30-16.02.42:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2020.07.30-16.02.42:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2020.07.30-16.02.42:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2020.07.30-16.02.42:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2020.07.30-16.02.42:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2020.07.30-16.02.42:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2020.07.30-16.02.42:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2020.07.30-16.02.42:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2020.07.30-16.02.42:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2020.07.30-16.02.42:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2020.07.30-16.02.42:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2020.07.30-16.02.42:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2020.07.30-16.02.42:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2020.07.30-16.02.42:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2020.07.30-16.02.42:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2020.07.30-16.02.42:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2020.07.30-16.02.42:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2020.07.30-16.02.42:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2020.07.30-16.02.42:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2020.07.30-16.02.42:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Door_M.uasset"
-[2020.07.30-16.02.42:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Door_N.uasset"
-[2020.07.30-16.02.42:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2020.07.30-16.02.42:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2020.07.30-16.02.42:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2020.07.30-16.02.42:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2020.07.30-16.02.42:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2020.07.30-16.02.42:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2020.07.30-16.02.42:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2020.07.30-16.02.42:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2020.07.30-16.02.42:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2020.07.30-16.02.42:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2020.07.30-16.02.42:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2020.07.30-16.02.42:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2020.07.30-16.02.42:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2020.07.30-16.02.42:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2020.07.30-16.02.42:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2020.07.30-16.02.42:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2020.07.30-16.02.42:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2020.07.30-16.02.42:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2020.07.30-16.02.42:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2020.07.30-16.02.42:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2020.07.30-16.02.42:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2020.07.30-16.02.42:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2020.07.30-16.02.42:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2020.07.30-16.02.42:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2020.07.30-16.02.42:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2020.07.30-16.02.42:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2020.07.30-16.02.42:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2020.07.30-16.02.42:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2020.07.30-16.02.42:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2020.07.30-16.02.42:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2020.07.30-16.02.42:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2020.07.30-16.02.42:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2020.07.30-16.02.42:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2020.07.30-16.02.42:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2020.07.30-16.02.42:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2020.07.30-16.02.42:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2020.07.30-16.02.42:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2020.07.30-16.02.42:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2020.07.30-16.02.42:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2020.07.30-16.02.42:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2020.07.30-16.02.42:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2020.07.30-16.02.42:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2020.07.30-16.02.42:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2020.07.30-16.02.42:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2020.07.30-16.02.42:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2020.07.30-16.02.42:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2020.07.30-16.02.42:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2020.07.30-16.02.42:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2020.07.30-16.02.42:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2020.07.30-16.02.42:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2020.07.30-16.02.42:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2020.07.30-16.02.42:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Water_M.uasset"
-[2020.07.30-16.02.42:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Water_N.uasset"
-[2020.07.30-16.02.42:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2020.07.30-16.02.42:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2020.07.30-16.02.42:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2020.07.30-16.02.42:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2020.07.30-16.02.42:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2020.07.30-16.02.42:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2020.07.30-16.02.42:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2020.07.30-16.02.42:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2020.07.30-16.02.42:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2020.07.30-16.02.43:058][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2020.07.30-16.02.43:112][  0]LogStaticMesh: Built static mesh [0.05s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2020.07.30-16.02.43:361][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2020.07.30-16.02.43:793][  0]LogSavePackage: Moving 'C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Floor_400x4000B5BBE2C4499408EAAC783815552ACEB.tmp' to 'C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2020.07.30-16.02.43:805][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2020.07.30-16.02.43:810][  0]Cmd: MAP LOAD FILE="C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.07.30-16.02.43:811][  0]LightingResults: New page: Lighting Build
-[2020.07.30-16.02.43:811][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.07.30-16.02.43:811][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.30-16.02.43:812][  0]MapCheck: New page: Map Check
-[2020.07.30-16.02.43:812][  0]LightingResults: New page: Lighting Build
-[2020.07.30-16.02.43:821][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011ADD5E7C00), frame # 0
-[2020.07.30-16.02.43:821][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011ADD64D6C0), frame # 0
-[2020.07.30-16.02.43:821][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
-[2020.07.30-16.02.44:693][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.07.30-16.02.44:693][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011AE6305000), frame # 0
-[2020.07.30-16.02.44:693][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011AE6313380), frame # 0
-[2020.07.30-16.02.44:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.07.30-16.02.44:913][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2020.07.30-16.02.44:913][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.30-16.02.44:913][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
-[2020.07.30-16.02.44:913][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.103
-[2020.07.30-16.02.44:922][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.080
-[2020.07.30-16.02.45:437][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-16.02.45:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-16.02.45:453][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-16.02.45:459][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.30-16.02.45:512][  0]LogCollectionManager: Loaded 0 collections in 0.000521 seconds
-[2020.07.30-16.02.45:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Saved/Collections/' took 0.00s
-[2020.07.30-16.02.45:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/Developers/vexe/Collections/' took 0.00s
-[2020.07.30-16.02.45:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vexe/OneDrive/Documents/GitHub/testRepository/MyProject/Content/Collections/' took 0.00s
-[2020.07.30-16.02.45:597][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3427 classes and 821 folders.
-[2020.07.30-16.02.45:636][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.07.30-16.02.45:682][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.07.30-16.02.45:704][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.07.30-16.02.45:984][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.30-16.02.45:986][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.07.30-16.02.46:015][  0]LogSlate: Took 0.017469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.07.30-16.02.46:228][  0]LogRenderer: Reallocating scene render targets to support 1724x808 Format 10 NumSamples 1 (Frame:1).
-[2020.07.30-16.02.46:720][  0]LogSlate: Window 'Tutorials' being destroyed
-[2020.07.30-16.02.46:746][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.07.30-16.02.46:746][  0]LogLoad: (Engine Initialization) Total time: 10.90 seconds
-[2020.07.30-16.02.46:746][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.30-16.02.46:761][  0]AssetCheck: New page: Asset Save: Floor_400x400
-[2020.07.30-16.02.46:761][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2020.07.30-16.02.46:817][  0]LogAssetRegistry: Asset discovery search completed in 7.9638 seconds
-[2020.07.30-16.02.46:821][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.07.30-16.02.46:910][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:323][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.30-23.13.16:323][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.30-23.13.16:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:324][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:336][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.30-23.13.16:336][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.30-23.13.16:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.30-23.13.16:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.30-23.13.16:339][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.30-23.13.16:340][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.30-23.13.16:341][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.30-23.13.16:341][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.30-23.13.16:341][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.30-23.13.16:342][  0]LogHAL: Display: Platform has ~ 14 GB [14858883072 / 17179869184 / 14], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.30-23.13.16:342][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.30-23.13.16:342][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.30-23.13.16:342][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.30-23.13.16:343][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.30-23.13.16:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.30-23.13.16:345][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.30-23.13.16:346][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.30-23.13.16:347][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.30-23.13.16:348][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.30-23.13.16:348][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.30-23.13.16:348][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.30-23.13.16:348][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.07.30-23.13.16:348][  0]LogInit: Computer: DESKTOP-000DI39
+[2020.07.30-23.13.16:348][  0]LogInit: User: JamesLivingst
+[2020.07.30-23.13.16:348][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.30-23.13.16:348][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.30-23.13.16:348][  0]LogMemory: Memory total: Physical=13.8GB (14GB approx)
+[2020.07.30-23.13.16:348][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.30-23.13.16:348][  0]LogMemory: Process Physical Memory: 114.56 MB used, 114.57 MB peak
+[2020.07.30-23.13.16:348][  0]LogMemory: Process Virtual Memory: 95.95 MB used, 95.95 MB peak
+[2020.07.30-23.13.16:348][  0]LogMemory: Physical Memory: 10164.38 MB used,  4006.16 MB free, 14170.54 MB total
+[2020.07.30-23.13.16:348][  0]LogMemory: Virtual Memory: 5108.74 MB used,  134212616.00 MB free, 134217728.00 MB total
+[2020.07.30-23.13.16:367][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.30-23.13.16:446][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.30-23.13.16:448][  0]LogInit: Using OS detected language (en-US).
+[2020.07.30-23.13.16:448][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.30-23.13.16:453][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.30-23.13.16:831][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.30-23.13.16:927][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.30-23.13.16:927][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.30-23.13.17:667][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.30-23.13.17:667][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.30-23.13.17:668][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.30-23.13.17:668][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.30-23.13.17:816][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.07.30-23.13.17:816][  0]LogD3D11RHI:       4055/0/7085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.07.30-23.13.17:832][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.07.30-23.13.17:832][  0]LogD3D11RHI:       128/0/7085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.30-23.13.17:839][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.30-23.13.17:839][  0]LogD3D11RHI:       0/0/7085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.30-23.13.17:839][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.30-23.13.17:959][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.30-23.13.17:960][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.07.30-23.13.17:960][  0]LogWindows: EnumDisplayDevices:
+[2020.07.30-23.13.17:961][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.07.30-23.13.17:961][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2020.07.30-23.13.17:962][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.30-23.13.17:963][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.30-23.13.17:963][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.07.30-23.13.17:963][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.30-23.13.17:963][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.30-23.13.17:963][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.07.30-23.13.18:024][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.30-23.13.18:028][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.30-23.13.18:028][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.30-23.13.18:075][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.07.30-23.13.19:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.30-23.13.19:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.30-23.13.19:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.30-23.13.19:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.30-23.13.19:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.30-23.13.19:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.30-23.13.19:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.30-23.13.19:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.30-23.13.19:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.30-23.13.19:430][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.30-23.13.19:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.30-23.13.19:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.30-23.13.19:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.30-23.13.19:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.30-23.13.19:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.30-23.13.19:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.30-23.13.19:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.30-23.13.19:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.30-23.13.19:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.30-23.13.19:614][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.30-23.13.19:632][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.30-23.13.19:751][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/816/).
+[2020.07.30-23.13.19:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/James Livingst/AppData/Local/Temp/UnrealShaderWorkingDir/BEDFBED3477579129EBCAEA59FD598F7/'.
+[2020.07.30-23.13.19:752][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.30-23.13.19:753][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.30-23.13.19:753][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.30-23.13.21:332][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.30-23.13.21:430][  0]LogDerivedDataCache: Loaded boot cache 0.10s 79MB C:/Users/James Livingst/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.30-23.13.21:431][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/James Livingst/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.30-23.13.21:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/James Livingst/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.30-23.13.21:431][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.30-23.13.21:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/James Livingst/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.30-23.13.21:431][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.30-23.13.21:448][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.30-23.13.21:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.30-23.13.21:448][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.30-23.13.21:450][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James Livingst/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.30-23.13.21:450][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.30-23.13.21:451][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.30-23.13.21:559][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.30-23.13.21:562][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.30-23.13.21:621][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2020.07.30-23.13.22:179][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.30-23.13.22:395][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.30-23.13.22:395][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.30-23.13.22:395][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.30-23.13.22:395][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.30-23.13.22:395][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.30-23.13.22:429][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
+[2020.07.30-23.13.23:517][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002857D02A980), frame # 0
+[2020.07.30-23.13.23:517][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285002DF740), frame # 0
+[2020.07.30-23.13.23:519][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002857D016800), frame # 0
+[2020.07.30-23.13.23:615][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.081214 seconds
+[2020.07.30-23.13.23:628][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.30-23.13.23:628][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.30-23.13.23:628][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.30-23.13.24:369][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.30-23.13.24:376][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.30-23.13.24:535][  0]SourceControl: Source control is disabled
+[2020.07.30-23.13.28:724][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.30-23.13.28:760][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.30-23.13.28:760][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.30-23.13.28:851][  0]LogOcInput: OculusInput pre-init called
+[2020.07.30-23.13.28:871][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.30-23.13.28:871][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.30-23.13.28:970][  0]LogEngine: Initializing Engine...
+[2020.07.30-23.13.29:027][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.30-23.13.29:066][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.30-23.13.29:069][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.30-23.13.29:274][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.30-23.13.29:288][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.30-23.13.29:288][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028503E6FC00), frame # 0
+[2020.07.30-23.13.29:288][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028503E77B00), frame # 0
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.30-23.13.29:318][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.30-23.13.29:318][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.30-23.13.29:319][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.30-23.13.29:319][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.30-23.13.29:361][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-23.13.29:361][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-23.13.29:500][  0]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2020.07.30-23.13.29:505][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.30-23.13.29:510][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.30-23.13.29:510][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.30-23.13.29:511][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.30-23.13.29:512][  0]LogInit: FAudioDevice initialized.
+[2020.07.30-23.13.29:513][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.30-23.13.29:995][  0]LogDerivedDataCache: Saved boot cache 0.48s 79MB C:/Users/James Livingst/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.30-23.13.29:995][  0]LogInit: Texture streaming: Enabled
+[2020.07.30-23.13.30:033][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.30-23.13.30:033][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.30-23.13.30:048][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.30-23.13.30:170][  0]LogInit: Transaction tracking system initialized
+[2020.07.30-23.13.30:212][  0]BlueprintLog: New page: Editor Load
+[2020.07.30-23.13.30:353][  0]LocalizationService: Localization service is disabled
+[2020.07.30-23.13.30:877][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.30-23.13.30:877][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.30-23.13.31:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Content/' took 0.02s
+[2020.07.30-23.13.31:681][  0]LogUnrealEdMisc: Loading editor; pre map load, took 21.552
+[2020.07.30-23.13.31:681][  0]Cmd: MAP LOAD FILE="C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.30-23.13.31:682][  0]LightingResults: New page: Lighting Build
+[2020.07.30-23.13.31:683][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.30-23.13.31:683][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.30-23.13.31:683][  0]MapCheck: New page: Map Check
+[2020.07.30-23.13.31:683][  0]LightingResults: New page: Lighting Build
+[2020.07.30-23.13.31:701][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028503E6FC00), frame # 0
+[2020.07.30-23.13.31:701][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028503E77B00), frame # 0
+[2020.07.30-23.13.31:703][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.07.30-23.13.34:259][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.30-23.13.34:259][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002851215FE00), frame # 0
+[2020.07.30-23.13.34:259][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002851216BB00), frame # 0
+[2020.07.30-23.13.34:879][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.30-23.13.34:978][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.07.30-23.13.34:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.30-23.13.34:979][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.277ms to complete.
+[2020.07.30-23.13.34:979][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.298
+[2020.07.30-23.13.35:007][  0]LogUnrealEdMisc: Total Editor Startup Time, took 24.879
+[2020.07.30-23.13.37:544][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.30-23.13.37:605][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.30-23.13.37:617][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.30-23.13.37:629][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.30-23.13.37:837][  0]LogCollectionManager: Loaded 0 collections in 0.003974 seconds
+[2020.07.30-23.13.38:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.02s
+[2020.07.30-23.13.38:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Content/Developers/JamesLivingst/Collections/' took 0.00s
+[2020.07.30-23.13.38:233][  0]LogFileCache: Scanning file cache for directory 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.00s
+[2020.07.30-23.13.38:233][  0]LogContentBrowser: Native class hierarchy populated in 0.0595 seconds. Added 3427 classes and 821 folders.
+[2020.07.30-23.13.38:485][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2020.07.30-23.13.40:130][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.07.30-23.13.40:194][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 2 classes and 0 folders.
+[2020.07.30-23.13.41:283][  0]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.30-23.13.41:287][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.30-23.13.41:756][  0]LogSlate: Took 0.042762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.30-23.13.42:994][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.07.30-23.13.44:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.07.30-23.13.44:949][  0]LogLoad: (Engine Initialization) Total time: 34.82 seconds
+[2020.07.30-23.13.44:949][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.30-23.13.45:204][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.30-23.13.45:367][  0]LogSlate: Took 0.032157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.30-23.13.47:348][ 72]LogAssetRegistry: Asset discovery search completed in 25.7293 seconds
+[2020.07.30-23.13.47:360][ 72]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.07.30-23.13.51:582][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2020.07.30-23.14.04:887][967]Cmd: TRANSACTION UNDO
+[2020.07.30-23.14.04:887][967]LogEditorTransaction: Undo Move Actors
+[2020.07.30-23.14.05:115][967]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.30-23.14.06:443][ 33]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.07.30-23.14.22:282][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.07.30-23.14.22:532][846]LogSavePackage: Moving 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/ThirdPersonExampleMap612A0B2E40F7C935E971A38E94E750A0.tmp' to 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.07.30-23.14.23:031][846]LogSavePackage: Moving 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Saved/ThirdPersonExampleMap_BuiltDataA90CD3814157E31AC1DF70968F3326F5.tmp' to 'C:/Users/James Livingst/Documents/Unreal Projects/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.07.30-23.14.23:065][846]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.30-23.14.23:066][846]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.07.30-23.14.23:066][846]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
